@@ -37,9 +37,9 @@
             bindings = <
 &kp GRAVE  &kp N1     &kp N2     &kp N3    &kp N4     &kp N5    &tog 1   &mo 3     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0   &kp EQUAL
 &kp TAB    &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y     &to 4    &tog 6    &kp F      &kp G      &kp C      &kp R      &kp L    &kp SLASH
-&kp LCTRL  &kp A      &kp O      &kp E     &kp U      &kp I     &none    &kp LCMD  &kp LALT                         &kp HOME   &kp END  &none      &kp D     &kp H  &kp T  &kp N  &kp S  &kp MINUS
+&kp LCTRL  &kp A      &kp O      &kp E     &kp U      &kp I     &none    &kp LCMD  &kp LALT                         &kp HOME   &kp END  &to 0      &kp D     &kp H  &kp T  &kp N  &kp S  &kp MINUS
 &kp LSHFT  &kp SEMI   &kp Q      &kp J     &kp K      &kp X     &none    &none     &kp LCTRL  &none      &none      &kp PG_UP  &none    &none      &kp B     &kp M  &kp W  &kp V  &kp Z  &kp RSHFT
-&mo 2      &kp GRAVE  &kp BSLH   &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL  &kp ESC   &kp PG_DN  &kp ENTER  &kp SPACE  &kp DOWN   &kp UP   &kp LBKT   &kp RBKT  &mo 2
+&mo 2      &kp GRAVE  &kp BSLH   &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL  &kp ESC   &kp PG_DN  &kp ENTER  &kp SPACE  &kp DOWN   &kp UP   &kp LBKT   &kp RBKT  &mo 1
             >;
         };
 
@@ -77,7 +77,7 @@
             bindings = <
 &kp GRAVE  &kp N1    &kp N2   &kp N3    &kp N4     &kp N5     &tog 1     &mo 3     &kp N6     &kp N7     &kp N8    &kp N9     &kp N0   &kp MINUS
 &kp TAB    &kp T     &kp Q    &kp W     &kp E      &kp R      &to 0      &none     &kp Y      &kp U      &kp I     &kp O      &kp P    &kp BSLH
-&kp LCTRL  &kp G     &kp A    &kp S     &kp D      &kp F      &to 5      &kp LCMD  &kp LALT                        &kp HOME   &kp END  &none      &kp H     &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LCTRL  &kp G     &kp A    &kp S     &kp D      &kp F      &to 5      &kp LCMD  &kp LALT                        &kp HOME   &kp END  &to 0      &kp H     &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
 &kp LSHFT  &kp B     &kp Z    &kp X     &kp C      &kp V      &trans     &trans    &kp LCTRL  &trans     &trans    &kp PG_UP  &trans   &trans     &kp N     &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
 &mo 2      &kp BSPC  &kp DEL  &kp LEFT  &kp RIGHT  &kp SPACE  &kp ENTER  &kp ESC   &kp PG_DN  &kp ENTER  &kp BSPC  &kp DOWN   &kp UP   &kp LBKT   &kp RBKT  &mo 2
             >;
@@ -96,7 +96,7 @@
         layer_qwerty {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Q   &kp W   &kp E   &kp R   &kp T   &trans  &trans  &kp Y   &kp U   &kp I   &kp O   &kp P   &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &kp T   &trans  &to 0   &kp Y   &kp U   &kp I   &kp O   &kp P   &trans
 &trans  &kp A   &kp S   &kp D   &kp F   &kp G   &trans  &trans  &trans                  &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
 &trans  &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M   &trans  &trans  &trans  &trans  &trans  &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
