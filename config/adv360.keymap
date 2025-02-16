@@ -52,11 +52,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                                  &mo L_MOD         &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
-&kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P      &kp Y   &tog L_QWERTY                                                              &mo L_NP          &kp F   &kp G     &kp C   &kp R     &kp L     &kp FSLH
-&kp LCTRL  &kp A     &kp O      &kp E     &kp U      &kp I   &tog L_GAME_L         &kp LGUI  &kp LALT       &kp HOME   &kp END          &none             &kp D   &kp H     &kp T   &kp N     &kp S     &kp MINUS
-&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K      &kp X                                   &kp RCTRL      &kp PG_UP                                     &kp B   &kp M     &kp W   &kp V     &kp Z     &kp RSHFT
-&mo L_FN   &kp CAPS  &kp BSLH   &kp LEFT  &kp RIGHT          &htp L_FN BSPC  &htp L_NP DEL   &kp ESC        &kp PG_DN  &htp L_NP ENTER  &htp L_FN  SPACE          &kp DOWN  &kp UP  &kp LBKT  &kp RBKT  &mo L_FN
+&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                     &mo L_MOD  &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
+&kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P      &kp Y   &tog L_QWERTY                                                 &mo L_NP   &kp F   &kp G     &kp C   &kp R     &kp L     &kp FSLH
+&kp LCTRL  &kp A     &kp O      &kp E     &kp U      &kp I   &tog L_GAME_L  &kp LGUI  &kp LALT       &kp HOME   &kp END    &none      &kp D   &kp H     &kp T   &kp N     &kp S     &kp MINUS
+&kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K      &kp X                            &kp RCTRL      &kp PG_UP                        &kp B   &kp M     &kp W   &kp V     &kp Z     &kp RSHFT
+&mo L_FN   &kp CAPS  &kp BSLH   &kp LEFT  &kp RIGHT          &kp BSPC       &kp DEL   &kp ESC        &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN  &kp UP  &kp LBKT  &kp RBKT  &mo L_FN
             >;
         };
 
@@ -72,11 +72,11 @@
 
         Gaming_Left {
             bindings = <
-&trans  &trans    &trans   &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans     &trans   &trans     &trans
-&trans  &kp T     &kp Q    &kp W   &kp E   &kp R   &trans                                                  &trans  &kp U   &kp I   &kp O      &kp P    &kp MINUS  &trans
-&trans  &kp G     &kp A    &kp S   &kp D   &kp F   &trans           &trans     &trans      &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &trans
-&trans  &kp B     &kp Z    &kp X   &kp C   &kp V                               &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH   &trans
-&trans  &kp BSPC  &kp DEL  &trans  &trans          &htp L_NP SPACE  &kp ENTER  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans     &trans
+&trans  &trans    &trans   &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans     &trans   &trans     &trans
+&trans  &kp T     &kp Q    &kp W   &kp E   &kp R   &trans                                            &trans  &kp U   &kp I   &kp O      &kp P    &kp MINUS  &trans
+&trans  &kp G     &kp A    &kp S   &kp D   &kp F   &trans     &trans     &trans      &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &trans
+&trans  &kp B     &kp Z    &kp X   &kp C   &kp V                         &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH   &trans
+&trans  &kp BSPC  &kp DEL  &trans  &trans          &kp SPACE  &kp ENTER  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans     &trans
             >;
         };
 
@@ -94,11 +94,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2   &kp F3          &kp F4          &kp F5           &kp F6           &tog L_NP                                      &mo L_MOD   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &mb MB3  &mb MB2         &mmv MOVE_UP    &mb MB1          &msc SCRL_UP     &none                                          &none       &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &none      &trans  &trans      &trans  &trans  &none       &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &mb MB4  &mb MB5         &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT                     &trans      &trans                      &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans   &trans          &trans          &trans                            &trans     &trans  &trans      &trans  &trans  &trans              &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2    &kp F3          &kp F4          &kp F5           &kp F6           &tog L_NP                                      &mo L_MOD   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &mb MCLK  &mb RCLK        &mmv MOVE_UP    &mb LCLK         &msc SCRL_UP     &none                                          &none       &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &none      &trans  &trans      &trans  &trans  &none       &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &mb MB4   &mb MB5         &none           &msc SCRL_LEFT   &msc SCRL_RIGHT                     &trans      &trans                      &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &none     &none           &trans          &trans                            &trans     &trans  &trans      &trans  &trans  &trans              &trans  &trans  &trans   &trans   &trans
             >;
         };
 
