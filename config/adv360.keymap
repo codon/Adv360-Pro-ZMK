@@ -28,13 +28,13 @@
             bindings = <&kp>, <&kp>;
         };
 
-        mb: mouse-button {
+        mkp: mouse_button {
             compatible = "zmk,behavior-mouse-key-press";
             label = "MouseButton";
             #binding-cells = <1>;
         };
 
-        htp: hold-tap {
+        htp: hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "HoldTap";
             bindings = <&mo>, <&kp>;
