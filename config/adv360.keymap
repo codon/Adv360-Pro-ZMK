@@ -59,7 +59,13 @@
             bindings = <&kp>, <&kp>;
         };
 
-        mkp: mouse_button {
+        mb: mouse_button {
+            compatible = "zmk,behavior-mouse-key-press";
+            label = "MouseButton";
+            #binding-cells = <1>;
+        };
+
+        mkp: mouse_key_press {
             compatible = "zmk,behavior-mouse-key-press";
             label = "MouseButton";
             #binding-cells = <1>;
