@@ -131,11 +131,11 @@ ___     ___         ___        ___        ___                   ___     ___     
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2    &kp F3          &kp F4          &kp F5           &kp F6           &tog L_NP                                      &mo L_MOD   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-___     &mb MCLK  &mb RCLK        &mmv MOVE_UP    &mb LCLK         &msc SCRL_UP     &none                                          &none       ___     ___     ___     ___      ___      ___
-___     &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN   &none      ___     ___         ___     ___     &none       ___     ___     ___     ___      ___      ___
-___     &mb MB4   &mb MB5         &none           &msc SCRL_LEFT   &msc SCRL_RIGHT                     ___         ___                         ___     ___     ___     ___      ___      ___
-___     &none     &none           ___             ___                               ___        ___     ___         ___     ___     ___                 ___     ___     ___      ___      ___
+&kp F1  &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &tog L_NP                                      &mo L_MOD   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+___     U_MB_M    U_MB_R    U_MS_U    U_MB_L    U_WH_U    &none                                          &none       ___     ___     ___     ___      ___      ___
+___     &none     U_MS_L    U_MS_D    U_MS_R    U_WH_D    &none      ___     ___         ___     ___     &none       ___     ___     ___     ___      ___      ___
+___     U_MB_4    U_MB_5    &none     U_WH_L    U_WH_R                       ___         ___                         ___     ___     ___     ___      ___      ___
+___     &none     &none     ___       ___                 ___        ___     ___         ___     ___     ___                 ___     ___     ___      ___      ___
             >;
         };
 
