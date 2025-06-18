@@ -14,7 +14,7 @@
 #define L_GAME_L 2
 #define L_NP 3
 #define L_FN 4
-#define L_MOD 9
+#define L_SYS 9
 
 #define U_MOUSE_MOVE_MAX 600
 #define U_MOUSE_SCROLL_MAX 10
@@ -89,7 +89,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                     &mo L_MOD  &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
+&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                     &mo L_SYS  &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
 &kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P      &kp Y   &tog L_QWERTY                                                 &mo L_NP   &kp F   &kp G     &kp C   &kp R     &kp L     &kp FSLH
 &kp LCTRL  &kp A     &kp O      &kp E     &kp U      &kp I   &tog L_GAME_L  &kp LGUI  &kp LALT       &kp HOME   &kp END    &none      &kp D   &kp H     &kp T   &kp N     &kp S     &kp MINUS
 &kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K      &kp X                            &kp RCTRL      &kp PG_UP                        &kp B   &kp M     &kp W   &kp V     &kp Z     &kp RSHFT
@@ -120,7 +120,7 @@ ___     &kp BSPC  &kp DEL  ___     ___             &kp SPACE  &kp ENTER  ___    
         NumberPad {
             display-name = "Np";
             bindings = <
-___     &kp GRAVE   &kp APOS   &kp SEMI   &kp MINUS  &kp EQUAL  ___                                           &mo L_MOD  &none  &kp KP_NUM  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_EQUAL  ___
+___     &kp GRAVE   &kp APOS   &kp SEMI   &kp MINUS  &kp EQUAL  ___                                           &mo L_SYS  &none  &kp KP_NUM  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_EQUAL  ___
 ___     &kp AMPS    &kp ASTRK  &kp SLASH  &kp LPAR   &kp RPAR   &none                                         ___        &none  &kp KP_N7   &kp KP_N8        &kp KP_N9      &kp KP_MINUS  ___
 ___     &kp DOLLAR  &kp PRCNT  &kp CARET  &kp LBKT   &kp RBKT   &none   ___     ___         ___     ___       &none      &none  &kp KP_N4   &kp KP_N5        &kp KP_N6      &kp KP_PLUS   ___
 ___     &kp EXCL    &kp AT     &kp HASH   &kp LBRC   &kp RBRC                   ___         ___                          &none  &kp KP_N1   &kp KP_N2        &kp KP_N3      &kp KP_ENTER  ___
@@ -131,7 +131,7 @@ ___     ___         ___        ___        ___                   ___     ___     
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &tog L_NP                                      &mo L_MOD   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &tog L_NP                                      &mo L_SYS   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 ___     U_MB_M    U_MB_R    U_MS_U    U_MB_L    U_WH_U    &none                                          &none       ___     ___     ___     ___      ___      ___
 ___     &none     U_MS_L    U_MS_D    U_MS_R    U_WH_D    &none      ___     ___         ___     ___     &none       ___     ___     ___     ___      ___      ___
 ___     U_MB_4    U_MB_5    &none     U_WH_L    U_WH_R                       ___         ___                         ___     ___     ___     ___      ___      ___
@@ -171,7 +171,7 @@ ___     ___     ___     ___     ___             ___     ___     ___         ___ 
 
         layer_8 {
             bindings = <
-&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                   &mo L_MOD  &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
+&kp GRAVE  &kp N1    &kp N2     &kp N3    &kp N4     &kp N5  &tog L_NP                                                   &mo L_SYS  &kp N6  &kp N7    &kp N8  &kp N9    &kp N0    &kp EQUAL
 &kp TAB    &kp APOS  &kp COMMA  &kp DOT   &kp P      &kp Y   ___                                                         ___        &kp F   &kp G     &kp C   &kp R     &kp L     &kp FSLH
 &kp LCTRL  &kp A     &kp O      &kp E     &kp U      &kp I   ___          &kp LGUI  &kp LALT       &kp HOME   &kp END    ___        &kp D   &kp H     &kp T   &kp N     &kp S     &kp MINUS
 &kp LSHFT  &kp SEMI  &kp Q      &kp J     &kp K      &kp X                          &kp RCTRL      &kp PG_UP                        &kp B   &kp M     &kp W   &kp V     &kp Z     &kp RSHFT
@@ -179,8 +179,8 @@ ___     ___     ___     ___     ___             ___     ___     ___         ___ 
             >;
         };
 
-        mod {
-            display-name = "Mod";
+        sys {
+            display-name = "System";
             bindings = <
 &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                                       ___           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
 &none           &none         &none         &none         &none         &none         &bootloader                                                                 &bootloader   &none         &none         &none         &none         &none         &none
